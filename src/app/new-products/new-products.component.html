@@ -1,0 +1,22 @@
+<section id="product1" class="section-p1">
+    <h2>SẢN PHẨM MỚI</h2>
+    <p class="heading">Summer Collection New Modern Design</p>
+    <div class="pro-container">
+        <div class="pro"*ngFor="let sp of listSanPham">
+            <img src="{{sp.hinh}}" alt="">
+            <div class="des">
+                <!-- <span>H&M</span> -->
+                <h5 routerLink="/product/{{sp.id}}">{{sp.tensp}}</h5>
+                <div class="star">
+                    <fa-icon [icon]="faStar"></fa-icon>
+                    <fa-icon [icon]="faStar"></fa-icon>
+                    <fa-icon [icon]="faStar"></fa-icon>
+                    <fa-icon [icon]="faStar"></fa-icon>
+                    <fa-icon [icon]="faStarHalfStroke"></fa-icon>
+                </div>
+                <h4>{{sp.giasp|number:'1.0-0':'fr' }} VNĐ</h4>
+                <a href="#"><fa-icon class=" cart" [icon]="faCartShopping"></fa-icon> </a>
+            </div>
+        </div>
+    </div>
+</section>

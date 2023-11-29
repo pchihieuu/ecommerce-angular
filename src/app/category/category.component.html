@@ -1,0 +1,11 @@
+<!-- <ul class="list-group">
+    <li class="list-group-item py-2" *ngFor="let loai of listLoaiSP">
+      <a href="/loai/{{loai.id}}"> {{loai.tenLoai | uppercase }}</a>
+    </li>
+</ul> -->
+<section id="feature" class="section-p1">
+    <div class="fe-box" *ngFor="let loai of listLoaiSP">
+        <img src="{{loai.anh}}" alt="">
+        <a href="/loai/{{loai.id}}"> {{loai.tenLoai | uppercase }}</a>
+    </div>
+</section>

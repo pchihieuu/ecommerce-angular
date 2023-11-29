@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Thay đổi font chữ */
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  h1 {
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #555;
+  }
+  
+  div {
+    margin: 20px 0;
+  }
+  
+  input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  p {
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+  }
+  
+  p[appHighlight][defaultcolor] {
+    font-weight: bold;
+    border: 2px solid violet;
+  }
+  
+  p[appHighlight="'yellow'"] {
+    background-color: #ffff99;
+  }
+  
+  p[appHighlight="orange"] {
+    background-color: orange;
+    color: white;
+  }
+  
+  hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  

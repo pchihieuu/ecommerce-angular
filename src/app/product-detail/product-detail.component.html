@@ -1,0 +1,27 @@
+ <!-- ===================== -->
+  <!--   Prodetails Section    -->
+  <!-- ===================== -->
+  <section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+      <img src="{{spChiTiet.hinh}}" width="100%" id="MainImg" alt="" />
+    </div>
+
+    <div class="single-pro-details">
+      <h6>Home / Product Detail</h6>
+      <h4>{{spChiTiet.tensp}}</h4>
+      <h2>{{spChiTiet.giasp|number:'1.0-0':'fr' }} VNĐ</h2>
+      <select>
+        <option>Select Size</option>
+        <option>Small</option>
+        <option>Medium</option>
+        <option>Large</option>
+        <option>XL</option>
+        <option>XXL</option>
+      </select>
+      <input type="number" value="1" />
+      <button class="normal">Add To cart</button>
+      <h4>Product Details</h4>
+      <span>{{spChiTiet.mota}}</span>
+    </div>
+  </section>
+  <app-recommend-product [idLoai]="idLoai" [soSP]="4"></app-recommend-product>

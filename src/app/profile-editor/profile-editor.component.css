@@ -1,0 +1,86 @@
+form {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    max-width: 400px; /* Đặt chiều rộng tối đa */
+    margin: 6px auto; /* Căn giữa theo chiều ngang và căn lề trên dưới */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  
+  p {
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  /* Additional styling for the Aliases section */
+  div[formArrayName="aliases"] {
+    margin-top: 20px;
+  }
+  
+  /* Styling for the Aliases buttons and inputs */
+  button[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+  div[formArrayName="aliases"] label {
+    margin-top: 10px;
+  }
+  
+  div[formArrayName="aliases"] input {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the Complete message */
+  p:last-child {
+    font-weight: bold;
+    color: #4caf50;
+  }
+  

@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px; /* Tăng padding */
+    width: 400px; /* Tăng chiều rộng */
+    text-align: center;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 12px; /* Tăng margin */
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px; /* Tăng padding */
+    margin-bottom: 20px; /* Tăng margin */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 24px; /* Tăng padding */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

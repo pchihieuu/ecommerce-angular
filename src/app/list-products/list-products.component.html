@@ -1,0 +1,58 @@
+<!-- <section id="feature" class="section-p1">
+    <div class="fe-box">
+        <img src="../assets/img/features/f1.png" alt="">
+        <h6>Free Shipping</h6>
+    </div>
+    <div class="fe-box">
+        <img src="../assets/img/features/f1.png" alt="">
+        <h6>Online Order</h6>
+    </div>
+    <div class="fe-box">
+        <img src="img/features/f3.png" alt="">
+        <h6>Save Money</h6>
+    </div>
+    <div class="fe-box">
+        <img src="img/features/f4.png" alt="">
+        <h6>Promotions</h6>
+    </div>
+    <div class="fe-box">
+        <img src="img/features/f5.png" alt="">
+        <h6>xHappy Sell</h6>
+    </div>
+    <div class="fe-box">
+        <img src="img/features/f6.png" alt="">
+        <h6>F24/7 Support</h6>
+    </div>
+</section> -->
+<!-- ===================== -->
+<!--    Products Section   -->
+<!-- ===================== -->
+<section id="page-header">
+    <h2>#shopfromhome</h2>
+
+    <p>Save more with coupons & up to 70% off!</p>
+  </section>
+<section id="product1" class="section-p1">
+    <h2>TẤT CẢ SẢN PHẨM</h2>
+    <p class="heading">Summer Collection New Modern Design</p>
+    <div class="pro-container">
+        <div class="pro" *ngFor="let sp of listSanPham">
+            <img src="{{sp.hinh}}" alt="">
+            <div class="des">
+                <!-- <span>Zara</span> -->
+                <h5 routerLink="/product/{{sp.id}}">{{sp.tensp}}</h5>
+                <div class="star">
+                  <fa-icon [icon]="faStar"></fa-icon>
+                  <fa-icon [icon]="faStar"></fa-icon>
+                  <fa-icon [icon]="faStar"></fa-icon>
+                  <fa-icon [icon]="faStar"></fa-icon>
+                  <fa-icon [icon]="faStarHalfStroke"></fa-icon>
+                </div>
+                <h4>{{sp.giasp|number:'1.0-0':'fr' }} VNĐ</h4>
+                <a href="#"><fa-icon class=" cart" [icon]="faCartShopping"></fa-icon> </a>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
