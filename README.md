@@ -1,5 +1,5 @@
 # ESHOP -ANGULAR
-The product is the process of learning Angular and Nodejs topics. Products to build online sales pages using frontend: Angular, fake backend using json server
+The project is the process of learning Angular and Nodejs topics. Products to build online sales pages using frontend: Angular, fake backend using json server
 ![angular1](https://github.com/pchihieuu/EShop-Angular/assets/98179861/d428117e-4eb2-4c87-9985-4d8f720411c6)
 # How run this project?
 ## Clone this project
