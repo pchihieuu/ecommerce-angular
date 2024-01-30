@@ -31,6 +31,7 @@ localhost:3000
 ![angular5](https://github.com/pchihieuu/EShop-Angular/assets/98179861/7f57d630-94e3-408a-8eab-849016839ff8)
 
 # System architecture
+![ANGULAR6](https://github.com/pchihieuu/EShop-Angular/assets/98179861/0762793b-c793-4ca9-9ae9-b0b3d9e0323c)
 
 
 
