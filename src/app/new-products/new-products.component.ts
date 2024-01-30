@@ -18,7 +18,7 @@ export class NewProductsComponent {
   constructor( private d:DataService ) { }
   listSanPham:IProducts[] = [];
   ngOnInit(): void {
-    this.d.getDienThoaiMoi().subscribe( d => this.listSanPham = d);
+    this.d.getSanPhamMoi().subscribe( d => this.listSanPham = d);
   }
 
 }
