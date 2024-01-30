@@ -18,11 +18,11 @@ export class DataService {
   laySP(id:number=0){
     return this.h.get(`http://localhost:3000/sanpham/${id}`);
   }
-  getLaptopBanChay(){
+  getSanPhamBanChay(){
     var url='http://localhost:3000/sanpham?idLoai=2&_sort=solanxem&_order=desc&_limit=8';
     return this.h.get<IProducts[]>( url );
   }
-  getDienThoaiMoi(){
+  getSanPahmMoi(){
     var url='http://localhost:3000/sanpham?idLoai=1&_sort=ngay&order=desc&_limit=8';
     return this.h.get<IProducts[]>( url );
   }
