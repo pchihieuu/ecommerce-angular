@@ -209,5 +209,38 @@
         { "id": 5, "tenLoai": "Phụ kiện", "soSP": 351, "anh": "/assets/img/features/f5.png" },
         { "id": 6, "tenLoai": "Dép", "soSP": 351, "anh": "/assets/img/features/f6.png" }
    ],
+   "blog": [
+    {
+      "id": 1,
+      "tenblog": "The contton-jersey zip-up hoodie",
+      "mota":"They are man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony ,godard, heheehe...",
+      "hinh":"../assets/img/blog/b1.jpg"
+    
+    },
+    {
+      "id": 2,
+      "tenblog":"How to Style a Quiff",
+      "mota":"Spiderman braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony ,godard ...",
+      "hinh": "../assets/img/blog/b2.jpg"
+    },
+    {
+      "id":3,
+      "tenblog": "Must-Have Skater girl Item",
+      "mota": "Fashion braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony ,godard ...",
+      "hinh": "../assets/img/blog/b3.jpg"
+    },
+    {
+      "id": 4,
+      "tenblog": "Runway Inspired Trends",
+      "mota": "Insprite trand fashion HAHA coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony ,godard ...",
+      "hinh": "../assets/img/blog/b4.jpg"
+    },
+    {
+      "id": 5,
+      "tenblog":"AW20 Menswear Trends",
+      "mota":"The man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony ,godard ...",
+      "hinh": "../assets/img/blog/b6.jpg"
+    }
+   ],
    "profile": { "name": "pchihieuu" }
   }

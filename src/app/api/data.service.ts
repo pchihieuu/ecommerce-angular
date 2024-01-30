@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { IProducts } from '../iproducts';
 import { ICategory } from '../icategory';
 import { map } from 'rxjs';
+import { Iblog } from '../iblog';
 
 @Injectable({
   providedIn: 'root'
@@ -45,6 +46,10 @@ export class DataService {
   getSanPhamLienQuan(idLoai:number=0, soSP:number=0){
     var url = `http://localhost:3000/sanpham?idLoai=${idLoai}&_limit=${soSP}`;
     return this.h.get<IProducts[]>(url);
+  }
+  getBlog() {
+    var url = `http://localhost:3000/blog`
+    return this.h.get<Iblog[]>( url );
   }
  
 }

@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit  } from '@angular/core';
+import { Iblog } from '../iblog';
+import { DataService } from '../api/data.service';
 
 @Component({
   selector: 'app-blog',
@@ -6,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent {
+  constructor(private b:DataService) { }
+  listBlog:Iblog[] = [];
+  ngOnInit(): void {
+    this.b.getBlog().subscribe(b => this.listBlog=b);
+  }
 
 }

@@ -5,21 +5,20 @@
 </section>
 <!-- blog section     -->
 <section id="blog">
-    <div class="blog-box">
+    <div class="blog-box" *ngFor="let blog of listBlog">
       <div class="blog-img">
-        <img src="../assets/img/blog/b1.jpg" alt="">
+        <img src="{{blog.hinh}}" alt="">
       </div>
       <div class="blog-details">
-        <h4> THE COTTION - JERSEY ZIP UP</h4>
+        <h4> {{blog.tenblog}}</h4>
         <p>
-          kikstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony
-          ,godard ... </p>
+          {{blog.mota}}</p>
         <a href="#"> CONTINUE READING </a>
       </div>
       <h1> 13/01 </h1>
 
     </div>
-    <div class="blog-box">
+    <!-- <div class="blog-box">
       <div class="blog-img">
         <img src="../assets/img/blog/b2.jpg" alt="">
       </div>
@@ -72,9 +71,9 @@
           ,godard ... </p>
         <a href="#"> CONTINUE READING </a>
       </div>
-      <h1> 10/03 </h1>
+      <h1> 10/03 </h1> -->
 
-    </div>
+    <!-- </div> -->
 
 
   </section>

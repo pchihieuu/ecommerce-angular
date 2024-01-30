@@ -27,7 +27,7 @@ import { DirectiveFormComponent } from './directive-form/directive-form.componen
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 import { MainFormComponent } from './main-form/main-form.component';
 import { CartComponent } from './cart/cart.component';
-
+import { NgToastModule } from 'ng-angular-popup';
 
 // register Swiper custom elements
 register();
@@ -66,7 +66,8 @@ register();
     FontAwesomeModule,
     HttpClientModule,
     NgxPaginationModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgToastModule
   ],
   providers: [],
   bootstrap: [AppComponent],

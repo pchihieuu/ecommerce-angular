@@ -3,7 +3,7 @@
     <p class="heading">Summer Collection New Modern Design</p>
     <div class="pro-container">
         <div class="pro"*ngFor="let sp of listSanPham">
-            <img src="{{sp.hinh}}" alt="">
+            <img src="{{sp.hinh}}" alt="" routerLink="/product/{{sp.id}}">
             <div class="des">
                 <!-- <span>H&M</span> -->
                 <h5 routerLink="/product/{{sp.id}}">{{sp.tensp}}</h5>
