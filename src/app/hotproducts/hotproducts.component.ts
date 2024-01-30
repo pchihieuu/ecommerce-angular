@@ -21,7 +21,7 @@ export class HotproductsComponent {
   constructor(private d:DataService) { }
   listSanPham:IProducts[] = [];
   ngOnInit(): void {
-    this.d.getLaptopBanChay().subscribe(d => this.listSanPham= d);
+    this.d.getSanPhamBanChay().subscribe(d => this.listSanPham= d);
   }
 
 }
